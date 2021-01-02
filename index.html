@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="photo/icon.png">
+
+    <title>DJ Website </title>
+</head>
+<body>
+    
+    <section >
+        <!-- <img src="photo/background1.jpg" class = "imgbx">    -->
+        <div class = "container">
+            <div class = "keys" >
+                <div  data-key = "65" class = "key" onclick="playMusic(this), doAnimation(this)">
+                    <kbd>A</kbd>
+                    <span>clap</span>
+                </div>
+                <div data-key = "83" class = "key" onclick="playMusic(this), doAnimation(this)">
+                    <kbd>S</kbd>
+                    <span>hihat</span>
+                </div>
+                <div data-key = "68" class = "key" onclick="playMusic(this), doAnimation(this)">
+                    <kbd>K</kbd>
+                    <span>kick</span>
+                </div>
+                <div data-key = "70" class = "key" onclick="playMusic(this), doAnimation(this)">
+                    <kbd>F</kbd>
+                    <span>openhat</span>
+                </div>
+                <div data-key = "71" class = "key" onclick="playMusic(this), doAnimation(this)">
+                    <kbd>G</kbd>
+                    <span>snoop</span>
+                </div>
+                <div data-key = "72" class = "key" onclick="playMusic(this), doAnimation(this)">
+                    <kbd>H</kbd>
+                    <span>ride</span>
+                </div>
+                <div data-key = "74" class = "key" onclick="playMusic(this), doAnimation(this)">
+                    <kbd>J</kbd>
+                    <span>snare</span>
+                </div>
+                <div data-key = "75" class = "key" onclick="playMusic(this), doAnimation(this)">
+                    <kbd>K</kbd>
+                    <span>tom</span>
+                </div>
+                <div data-key = "76" class = "key" onclick="playMusic(this), doAnimation(this)">
+                    <kbd>L</kbd>
+                    <span>Piano</span>
+                </div>
+            
+            </div>
+
+        <p class = "copyright">  <a href="https://www.facebook.com/AbdelrahmanShamardal">&#169; Abdelrahman A.Shamardal</a></p>
+        </div>
+    </section>
+    <audio data-key = "65" src="sounds/clap.wav"    id = "clicky"></audio>
+    <audio data-key = "83" src="sounds/hithat.wav"  id = "clicky"></audio>
+    <audio data-key = "68" src="sounds/kick.wav"    id = "clicky"></audio>
+    <audio data-key = "70" src="sounds/openhat.wav" id = "clicky"></audio>
+    <audio data-key = "71" src="sounds/snoop.mp3"    id = "clicky"></audio>
+    <audio data-key = "72" src="sounds/ride.mp3"    id = "clicky"></audio>
+    <audio data-key = "74" src="sounds/snare.mp3"   id = "clicky"></audio>
+    <audio data-key = "75" src="sounds/tom.mp3"     id = "clicky"></audio>
+    <audio data-key = "76" src="sounds/piano.mp3"    id = "clicky"></audio>
+    <script src = "Javascript/Javascript.js"  src = "Javascript/sounds.js" id = "clicky"></script>
+        
+</body>
+</html>
